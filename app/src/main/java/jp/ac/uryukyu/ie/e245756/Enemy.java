@@ -14,30 +14,62 @@ public class Enemy {
     private int attack;
     private boolean dead;
 
+    /**
+     * Enemyの名前を取得するメソッド。
+     * @return Enemyの名前。
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * Enemyの名前を設定するメソッド。
+     * @param name 設定するEnemyの名前。
+     */
     public void setName(String name){
         this.name = name;
     }
 
+    /**
+     * EnemyのHPを取得するメソッド。
+     * @return EnemyのHP。
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * EnemyのHPを設定するメソッド。
+     * @param hitpoint 設定するEnemyのHP。
+     */
     public void setHitPoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
+    /**
+     * Enemyの攻撃力を取得するメソッド。
+     * @return Enemyの攻撃力。
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * Enemyの攻撃力を設定するメソッド。
+     * @param attack 設定するEnemyの攻撃力。
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
 
+    /**
+     * Enemyの生死の状態を取得するメソッド。
+     * @return Enemyの生死の状態。
+     */
     public boolean getDead(){
         return this.dead;
     }
+    /**
+     * Enemyの生死の状態を設定するメソッド。
+     * @param dead 設定するEnemyの生死の状態。
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
