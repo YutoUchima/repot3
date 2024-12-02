@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WarriorTest {
     @Test
-    void attackWithWeponSkill(){
+    void attackWithWeponSkillTest(){
         int defaultWarriorHp = 100;
-        Warrior demowarrior = new Warrior("デモでも戦士", defaultWarriorHp, 20);
+        Warrior demowarrior = new Warrior("デモ戦士", defaultWarriorHp, 20);
         Enemy slime = new Enemy("スライムもどき", 100, 10);
                
         for(int i = 1; i <=3; i++){    
